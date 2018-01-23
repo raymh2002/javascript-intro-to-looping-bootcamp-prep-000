@@ -1,7 +1,7 @@
 function forLoop(array) {
   var accumulateArray = (array);
   for (i=1; i<=25; ++i) {
-    accumulateArray.push( `"I am ${i} strange loop$(i === 0 ? \'\' : \'s\'}."`)
+    accumulateArray.push( `"I am ${i} strange loop$(i === 0 ? \'\' : \'s\'}."`);
   }
    (array) = accumulateArray;
    return (array);
