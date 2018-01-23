@@ -4,7 +4,7 @@ function forLoop(array) {
     accumulateArray.push( `"I am ${i} strange loop$(i === 0 ? \'\' : \'s\'}."`)
   }
    (array) = accumulateArray;
-   return (array)
+   return (array);
 }
 
 function whileLoop(n) {
